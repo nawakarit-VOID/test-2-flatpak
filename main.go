@@ -273,6 +273,12 @@ var iconData []byte
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 func main() {
+	a := app.NewWithID("Pomodoro")
+	icon := fyne.NewStaticResource("icon.png", iconData)
+	a.SetIcon(icon)
+	w := a.NewWindow("Pomodoro")
+	w.SetIcon(icon)
+
 	app := newPomodoroApp()
 	app.run()
 }

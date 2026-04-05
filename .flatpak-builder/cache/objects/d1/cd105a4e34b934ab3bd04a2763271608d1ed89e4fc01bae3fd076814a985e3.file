@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Pomodoro
+Exec=Pomodoro
+Icon=com.nawakarit.pomodoro
+Type=Application
+Categories=Utility;
+
+
