@@ -255,8 +255,11 @@ func (p *PomodoroApp) buildUI() {
 }
 
 func (p *PomodoroApp) run() {
-	p.fyneApp = app.New()
+	p.fyneApp = app.NewWithID("Pomodoro")
+	icon := fyne.NewStaticResource("icon.png", iconData)
+	p.fyneApp.SetIcon(icon)
 	p.window = p.fyneApp.NewWindow("🍅 Pomodoro Timer")
+	p.window.SetIcon(icon)
 	p.window.Resize(fyne.NewSize(360, 420))
 	p.window.SetFixedSize(true)
 
@@ -268,14 +271,8 @@ func (p *PomodoroApp) run() {
 var iconData []byte
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
+
 func main() {
-
-	a := app.NewWithID("com.nawakarit.PomodoroApp")
-	icon := fyne.NewStaticResource("icon.png", iconData)
-	a.SetIcon(icon)
-	w := a.NewWindow("oneimage")
-	w.SetIcon(icon)
-
-	w.ShowAndRun()
-
+	app := newPomodoroApp()
+	app.run()
 }
