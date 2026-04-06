@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Pomodoro
-Exec=Pomodoro
+Name=pomodoro
+Exec=pomodoro
 Icon=com.nawakarit.pomodoro
 Type=Application
 Categories=Utility;
