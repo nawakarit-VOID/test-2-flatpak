@@ -1,6 +1,7 @@
 {
   "app-id": "com.nawakarit.pomodoro",
   "runtime": "org.freedesktop.Platform",
+  "rename-appdata-file": "com.nawakarit.pomodoro.metainfo.xml",
 
   "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",

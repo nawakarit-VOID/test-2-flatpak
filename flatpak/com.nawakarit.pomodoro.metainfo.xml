@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop-application">
-  <id>com.nawakarit.pomodoro</id>
+<component type="desktop">
 
   <name>Pomodoro</name>
   <summary>Simple Pomodoro timer</summary>
@@ -28,3 +27,6 @@
   </releases>
 
 </component>
+
+
+  <id>com.nawakarit.pomodoro</id>
