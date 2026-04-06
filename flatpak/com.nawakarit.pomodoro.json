@@ -19,26 +19,20 @@
       "build-commands": [
         "install -D Pomodoro /app/bin/Pomodoro",
         "install -D com.nawakarit.pomodoro.desktop /app/share/applications/com.nawakarit.pomodoro.desktop",
-        "install -D com.nawakarit.pomodoro.png /app/share/icons/hicolor/256x256/apps/com.nawakarit.pomodoro.png",
-        "install -D com.nawakarit.pomodoro.metainfo.xml /app/share/metainfo/com.nawakarit.pomodoro.metainfo.xml"
+
+        "install -D com.nawakarit.pomodoro.metainfo.xml /app/share/metainfo/com.nawakarit.pomodoro.metainfo.xml",
+
+        "install -D icon-512.png /app/share/icons/hicolor/512x512/apps/com.nawakarit.pomodoro.png"
+
+
+        
       ],
       "sources": [
-        {
-          "type": "file",
-          "path": "../Pomodoro"
-        },
-        {
-          "type": "file",
-          "path": "com.nawakarit.pomodoro.desktop"
-        },
-        {
-          "type": "file",
-          "path": "com.nawakarit.pomodoro.png"
-        },
-        {
-        "type": "file",
-        "path": "com.nawakarit.pomodoro.metainfo.xml"
-        }
+        { "type": "file", "path": "../Pomodoro" },
+        { "type": "file", "path": "com.nawakarit.pomodoro.desktop" },
+        { "type": "file", "path": "com.nawakarit.pomodoro.metainfo.xml" },
+
+        { "type": "file", "path": "icon-512.png" }
       ]
     }
   ]
