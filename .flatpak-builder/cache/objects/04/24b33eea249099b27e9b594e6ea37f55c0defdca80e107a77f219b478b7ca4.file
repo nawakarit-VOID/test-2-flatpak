@@ -1,0 +1,17 @@
+[Application]
+name=com.nawakarit.pomodoro
+runtime=org.freedesktop.Platform/x86_64/25.08
+sdk=org.freedesktop.Sdk/x86_64/25.08
+command=pomodoro
+
+[Context]
+shared=ipc;
+sockets=x11;wayland;fallback-x11;
+
+[Extension com.nawakarit.pomodoro.Debug]
+directory=lib/debug
+autodelete=true
+no-autodownload=true
+
+[Build]
+built-extensions=com.nawakarit.pomodoro.Debug;
