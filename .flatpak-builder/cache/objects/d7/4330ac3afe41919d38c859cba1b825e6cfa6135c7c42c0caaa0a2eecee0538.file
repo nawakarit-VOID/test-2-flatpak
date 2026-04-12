@@ -1,0 +1,9 @@
+[Application]
+name=com.nawakarit.pomodoro
+runtime=org.freedesktop.Platform/x86_64/25.08
+sdk=org.freedesktop.Sdk/x86_64/25.08
+command=pomodoro
+
+[Context]
+shared=ipc;
+sockets=x11;wayland;fallback-x11;

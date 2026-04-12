@@ -1,5 +1,0 @@
-[Runtime]
-name=com.nawakarit.pomodoro.Debug
-
-[ExtensionOf]
-ref=app/com.nawakarit.pomodoro/x86_64/master

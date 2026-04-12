@@ -11,20 +11,29 @@
   ],
   "modules": [
     {
-      "name": "pomodoro",
+      "name": "Pomodoro",
       "buildsystem": "simple",
       "build-commands": [
         "install -D pomodoro /app/bin/pomodoro",
         "install -D com.nawakarit.pomodoro.desktop /app/share/applications/com.nawakarit.pomodoro.desktop",
         "install -D com.nawakarit.pomodoro.metainfo.xml /app/share/metainfo/com.nawakarit.pomodoro.metainfo.xml",
-        "install -D icon.png /app/share/icons/hicolor/512x512/apps/com.nawakarit.pomodoro.png"
-
+        "install -D icon-16.png /app/share/icons/hicolor/16x16/apps/com.nawakarit.pomodoro.png",
+        "install -D icon-32.png /app/share/icons/hicolor/32x32/apps/com.nawakarit.pomodoro.png",
+        "install -D icon-64.png /app/share/icons/hicolor/64x64/apps/com.nawakarit.pomodoro.png",
+        "install -D icon-128.png /app/share/icons/hicolor/128x128/apps/com.nawakarit.pomodoro.png",
+        "install -D icon-256.png /app/share/icons/hicolor/256x256/apps/com.nawakarit.pomodoro.png",
+        "install -D icon-512.png /app/share/icons/hicolor/512x512/apps/com.nawakarit.pomodoro.png"
       ],
       "sources": [
-        { "type": "file", "path": "../pomodoro" },
+        { "type": "file","path": "../pomodoro"},
         { "type": "file", "path": "com.nawakarit.pomodoro.desktop" },
         { "type": "file", "path": "com.nawakarit.pomodoro.metainfo.xml" },
-        { "type": "file", "path": "icon.png" }
+        { "type": "file", "path": "icons/icon-16.png" },
+        { "type": "file", "path": "icons/icon-32.png" },
+        { "type": "file", "path": "icons/icon-64.png" },
+        { "type": "file", "path": "icons/icon-128.png" },
+        { "type": "file", "path": "icons/icon-256.png" },
+        { "type": "file", "path": "icons/icon-512.png" }
       ]
     }
   ]
