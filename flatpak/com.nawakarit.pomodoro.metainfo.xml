@@ -13,7 +13,9 @@
  <project_license>GPL-3.0-or-later</project_license>
   <metadata_license>CC0-1.0</metadata_license>
 
-  <content_rating type="oars-1.1"/>
+<content_rating type="oars-1.1">
+  <content_attribute id="violence-realistic" value="intense"/>
+</content_rating>
 
   <developer_name>by nawakarit</developer_name>
   <developer_name xml:lang="th">by nawakarit or เจช์ (วัดดงหมี)</developer_name>
@@ -64,21 +66,27 @@
 
  <screenshots>
   <screenshot type="default">
+
     <caption>Main window</caption>
     <image>https://raw.githubusercontent.com/nawakarit-VOID/test-2-flatpak/refs/heads/main/SCR_2026-04-06_21-06-09.png</image>
   </screenshot>
+
   <screenshot>
     <image>https://raw.githubusercontent.com/nawakarit-VOID/test-2-flatpak/refs/heads/main/SCR_2026-04-06_21-07-08.png</image>
   </screenshot>
+
   <screenshot>
     <image>https://raw.githubusercontent.com/nawakarit-VOID/test-2-flatpak/refs/heads/main/SCR_2026-04-06_21-07-18.png</image>
   </screenshot>
+
   <screenshot>
     <image>https://raw.githubusercontent.com/nawakarit-VOID/test-2-flatpak/refs/heads/main/SCR_2026-04-06_21-07-08.png</image>
   </screenshot>
+
   <screenshot>
     <image>https://raw.githubusercontent.com/nawakarit-VOID/test-2-flatpak/refs/heads/main/SCR_2026-04-06_21-06-09.png</image>
   </screenshot>
+
 </screenshots>
 
   <url type="homepage">https://github.com/nawakarit-VOID</url>
